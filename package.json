@@ -1,0 +1,31 @@
+{
+  "name": "@multicodesolution/gokea-rider-management-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"lib/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multicodesolution/gokea-ridermanagement-schema.git"
+  },
+  "author": "multicode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multicodesolution/gokea-ridermanagement-schema/issues"
+  },
+  "homepage": "https://github.com/multicodesolution/gokea-ridermanagement-schema#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "sequelize": "^6.6.4"
+  }
+}
